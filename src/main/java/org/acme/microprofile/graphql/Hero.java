@@ -4,7 +4,7 @@ package org.acme.microprofile.graphql;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Hero {
+public class Hero implements Person {
 
     private String name;
     private String surname;
